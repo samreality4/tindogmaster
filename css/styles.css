@@ -1,34 +1,50 @@
 /* Generic Elements */
-body {
-  font-family: "Montserrat-Black", sans-serif;
-}
 
-h1 {
-  font-family: "Montserrat-Black", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat-Black", sans-serif;
 }
 
 h2 {
-  font-family: "Montserrat-Black", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: "Montserrat-Black", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Heading */
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Sections */
+.color-section {
+  background-color: #fe6845;
+  color: #fff;
+
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 
 /* NavBar */
 .bg-custom {
   background-color: #fe6845;
 }
-
-.container-fluid {}
 
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -53,11 +69,10 @@ h3 {
   font-size: 1.2rem;
 }
 
-/* Main Content */
+/* title */
 #title {
-  background-color: #fe6845;
-  color: #fff;
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .download-button {
@@ -71,8 +86,8 @@ h3 {
   right: 25%;
 }
 
+/* features */
 #features {
-  background-color: #fff;
   padding: 7% 15%;
   position: relative;
   z-index: 1;
@@ -88,11 +103,9 @@ h3 {
   text-align: center;
 }
 
+/* testimonials */
 #testimonials {
-  ;
-  text-align: center;
   background-color: #fe6845;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -104,13 +117,8 @@ h3 {
   padding: 7% 25%
 }
 
-.carousel-control-prev-icon {}
-
-.carousel-control-next-icon {}
-
+/* press   */
 #press {
-  background-color: #fe6845;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -119,8 +127,8 @@ h3 {
   margin: 20px 20px 50px;
 }
 
+/* pricing */
 #pricing {
-  text-align: center;
   padding: 100px;
 }
 
@@ -132,6 +140,22 @@ h3 {
   visibility: hidden;
 }
 
+
+#cta {
+  padding: 7% 25%;
+}
+
+
+#footer {
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin-right: .75%;
+  margin-bottom: 2%;
+}
+
+/* Responsiveness */
 @media (max-width: 992px) {
   #title {
     text-align: center;
@@ -148,7 +172,7 @@ h3 {
     text-align: center;
   }
 
-  h1 {
+  .big-heading {
     font-size: 2.5rem;
   }
 
@@ -159,22 +183,4 @@ h3 {
   h3 {
     font-size: 1rem;
   }
-}
-
-#cta {
-  background-color: #fe6845;
-  color: #fff;
-  padding: 7% 25%;
-  text-align: center;
-}
-
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.footer-icon {
-  margin-right: .75%;
-  margin-bottom: 2%;
 }
