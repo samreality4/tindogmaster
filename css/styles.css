@@ -47,6 +47,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   padding: 0 0 4.5rem 0;
 }
 
